@@ -1,0 +1,1332 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Verify the Video should is playable",
+        "description": "",
+        "id": "this-is-demoblaze-aboutus;verify-the-video-should-is-playable",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 917859900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Launch the application\u003c\"URL\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 24
+                }
+              ],
+              "location": "DemoCamp_71.launch_the_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2122569300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click the About us link on the Home page",
+            "match": {
+              "location": "DemoCamp_71.user_click_the_About_us_link_on_the_Home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 104204100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify About us text will display on the About us page",
+            "match": {
+              "location": "DemoCamp_75.verify_About_us_text_will_display_on_the_About_us_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Aboutus"
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Verify User able to close the page after once click the close button",
+        "description": "",
+        "id": "this-is-demoblaze-aboutus;verify-user-able-to-close-the-page-after-once-click-the-close-button",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 187712001,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Launch the application\u003c\"URL\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 24
+                }
+              ],
+              "location": "DemoCamp_71.launch_the_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2101314599,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User click the About us link on the Home page",
+            "match": {
+              "location": "DemoCamp_71.user_click_the_About_us_link_on_the_Home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5103883601,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User click the play icon of the video on the About us page",
+            "match": {
+              "location": "DemoCamp_75.user_click_the_play_icon_of_the_video_on_the_About_us_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20053802799,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[@title\u003d\u0027Pause\u0027]\"}\n  (Session info: chrome\u003d107.0.5304.123)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027DESKTOP-I20NSNO\u0027, ip: \u0027192.168.1.217\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.15\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.123, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\\Users\\arifa\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52390}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0b802eda01a887dd1c6c52bd177a69ef\n*** Element info: {Using\u003dxpath, value\u003d//button[@title\u003d\u0027Pause\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy24.click(Unknown Source)\r\n\tat Com.ActionsCamp.QA.AboutUsActionsCamp.pausebutton(AboutUsActionsCamp.java:33)\r\n\tat StepDepCamp.DemoCamp_75.the_user_can_pause_the_video_anytime(DemoCamp_75.java:29)\r\n\tat ✽.And The user can pause the video anytime(AboutusCamp.feature:15)\r\n",
+              "status": "failed"
+            },
+            "line": 15,
+            "name": "The user can pause the video anytime",
+            "match": {
+              "location": "DemoCamp_75.the_user_can_pause_the_video_anytime()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "Verify User is able to close the page after once click the close button",
+            "match": {
+              "location": "DemoCamp_75.verify_User_is_able_to_close_the_page_after_once_click_the_close_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@Aboutus"
+          }
+        ]
+      }
+    ],
+    "name": "this is Demoblaze AboutUs",
+    "description": "",
+    "id": "this-is-demoblaze-aboutus",
+    "keyword": "Feature",
+    "uri": "AboutusCamp.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify after adding the item, items display on the Cart page",
+        "description": "",
+        "id": "this-is-the-democamp-cart-feature-file;verify-after-adding-the-item,-items-display-on-the-cart-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 487472901,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch the application\u003c\"URL\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 24
+                }
+              ],
+              "location": "DemoCamp_71.launch_the_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 384331700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on an item",
+            "match": {
+              "location": "DemoCamp_76.click_on_an_item()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 406127900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on add to Cart button",
+            "match": {
+              "location": "DemoCamp_76.click_on_add_to_Cart_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 271131300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on the Cart link",
+            "match": {
+              "location": "DemoCamp_76.click_on_the_Cart_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 78639100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify after adding the item, items displayed on the Cart page",
+            "match": {
+              "location": "DemoCamp_76.verify_after_adding_the_item_items_displayed_on_the_Cart_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Cart"
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Verify the user can able to purchase",
+        "description": "",
+        "id": "this-is-the-democamp-cart-feature-file;verify-the-user-can-able-to-purchase",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 168500199,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Launch the application\u003c\"URL\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 24
+                }
+              ],
+              "location": "DemoCamp_71.launch_the_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 242019000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Click on an item",
+            "match": {
+              "location": "DemoCamp_76.click_on_an_item()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 199673799,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Click on add to Cart button",
+            "match": {
+              "location": "DemoCamp_76.click_on_add_to_Cart_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 117854100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Click on the Cart link",
+            "match": {
+              "location": "DemoCamp_76.click_on_the_Cart_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 91769799,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click on the place order button",
+            "match": {
+              "location": "DemoCamp_76.click_on_the_place_order_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 971092400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Fill up the place order form",
+            "match": {
+              "location": "DemoCamp_76.fill_up_the_place_order_form()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2088532701,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Click on the purchase button",
+            "match": {
+              "location": "DemoCamp_76.click_on_the_purchase_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 402396800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Verify the purchase message",
+            "match": {
+              "location": "DemoCamp_76.verify_the_purchase_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@Cart"
+          }
+        ]
+      }
+    ],
+    "name": "This is the DemoCamp Cart feature file",
+    "description": "",
+    "id": "this-is-the-democamp-cart-feature-file",
+    "keyword": "Feature",
+    "uri": "CartCamp.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify the Contract Name field on the Contract page",
+        "description": "",
+        "id": "verify-demoblaze-contactlink;verify-the-contract-name-field-on-the-contract-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 192244400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch the application\u003c\"URL\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 24
+                }
+              ],
+              "location": "DemoCamp_71.launch_the_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2134602700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click the Contact link on the Home page",
+            "match": {
+              "location": "DemoCamp_71.user_click_the_Contact_link_on_the_Home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37694399,
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d107.0.5304.123)\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027DESKTOP-I20NSNO\u0027, ip: \u0027192.168.1.217\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.15\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.123, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\\Users\\arifa\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52390}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0b802eda01a887dd1c6c52bd177a69ef\n*** Element info: {Using\u003dxpath, value\u003d//h5[text()\u003d\u0027New message\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy24.isDisplayed(Unknown Source)\r\n\tat Com.ActionsCamp.QA.ContactPageActionsCamp.contactverify(ContactPageActionsCamp.java:18)\r\n\tat StepDepCamp.DemoCamp_74.verify_the_Contact_name_field_on_the_Contact_page(DemoCamp_74.java:18)\r\n\tat ✽.Then Verify the Contact name field on the  Contact page(ContactCamp.feature:7)\r\n",
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "Verify the Contact name field on the  Contact page",
+            "match": {
+              "location": "DemoCamp_74.verify_the_Contact_name_field_on_the_Contact_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@contact"
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Verify User able to send messages after once click Send message button",
+        "description": "",
+        "id": "verify-demoblaze-contactlink;verify-user-able-to-send-messages-after-once-click-send-message-button",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 22672200,
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d107.0.5304.123)\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027DESKTOP-I20NSNO\u0027, ip: \u0027192.168.1.217\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.15\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.123, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\\Users\\arifa\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52390}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0b802eda01a887dd1c6c52bd177a69ef\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)\r\n\tat Com.Utility.QA.BaseCamp.launchURL(BaseCamp.java:60)\r\n\tat StepDepCamp.DemoCamp_71.launch_the_application(DemoCamp_71.java:30)\r\n\tat ✽.Given Launch the application\u003c\"URL\"\u003e(ContactCamp.feature:12)\r\n",
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "Launch the application\u003c\"URL\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 24
+                }
+              ],
+              "location": "DemoCamp_71.launch_the_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User click the Contact link on the Home page",
+            "match": {
+              "location": "DemoCamp_71.user_click_the_Contact_link_on_the_Home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User enters the Contact email",
+            "match": {
+              "location": "DemoCamp_74.user_enters_the_Contact_email()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User enters Contact name",
+            "match": {
+              "location": "DemoCamp_74.user_enters_Contact_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "User writes a messages",
+            "match": {
+              "location": "DemoCamp_74.user_writes_a_messages()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "User click on Send message button",
+            "match": {
+              "location": "DemoCamp_74.user_click_on_Send_message_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "Verifyu User able to send messages",
+            "match": {
+              "location": "DemoCamp_74.verifyu_User_able_to_send_messages()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@contact"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Verify user can not able to send messages without writing any messages",
+        "description": "",
+        "id": "verify-demoblaze-contactlink;verify-user-can-not-able-to-send-messages-without-writing-any-messages",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13323800,
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d107.0.5304.123)\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027DESKTOP-I20NSNO\u0027, ip: \u0027192.168.1.217\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.15\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.123, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\\Users\\arifa\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52390}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0b802eda01a887dd1c6c52bd177a69ef\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)\r\n\tat Com.Utility.QA.BaseCamp.launchURL(BaseCamp.java:60)\r\n\tat StepDepCamp.DemoCamp_71.launch_the_application(DemoCamp_71.java:30)\r\n\tat ✽.Given Launch the application\u003c\"URL\"\u003e(ContactCamp.feature:22)\r\n",
+              "status": "failed"
+            },
+            "line": 22,
+            "name": "Launch the application\u003c\"URL\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 24
+                }
+              ],
+              "location": "DemoCamp_71.launch_the_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "User click the Contact link on the Home page",
+            "match": {
+              "location": "DemoCamp_71.user_click_the_Contact_link_on_the_Home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "User does not enter the Contact email",
+            "match": {
+              "location": "DemoCamp_74.user_does_not_enter_the_Contact_email()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "User  does not enter the Contact name",
+            "match": {
+              "location": "DemoCamp_74.user_does_not_enter_the_Contact_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "User does not write a messages",
+            "match": {
+              "location": "DemoCamp_74.user_does_not_write_a_messages()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "User click on Send message button",
+            "match": {
+              "location": "DemoCamp_74.user_click_on_Send_message_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "Verify User does not able to send messages after once click Send message button",
+            "match": {
+              "location": "DemoCamp_74.verify_User_does_not_able_to_send_messages_after_once_click_Send_message_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 20,
+            "name": "@contact"
+          }
+        ]
+      }
+    ],
+    "name": "verify demoblaze contactlink",
+    "description": "",
+    "id": "verify-demoblaze-contactlink",
+    "keyword": "Feature",
+    "uri": "ContactCamp.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify Home link tab in the Homepage is available to access the Homepage",
+        "description": "",
+        "id": "velify-demoblaze-homeheader;verify-home-link-tab-in-the-homepage-is-available-to-access-the-homepage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24767800,
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d107.0.5304.123)\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027DESKTOP-I20NSNO\u0027, ip: \u0027192.168.1.217\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.15\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.123, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\\Users\\arifa\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52390}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0b802eda01a887dd1c6c52bd177a69ef\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)\r\n\tat Com.Utility.QA.BaseCamp.launchURL(BaseCamp.java:60)\r\n\tat StepDepCamp.DemoCamp_71.launch_the_application(DemoCamp_71.java:30)\r\n\tat ✽.Given Launch the application\u003c\"URL\"\u003e(HeaderlinkCamp.feature:6)\r\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "Launch the application\u003c\"URL\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 24
+                }
+              ],
+              "location": "DemoCamp_71.launch_the_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Click the Home link on the Home page",
+            "match": {
+              "location": "DemoCamp_71.click_the_Home_link_on_the_Home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Verify Home page is accessible to the user",
+            "match": {
+              "location": "DemoCamp_71.verify_Home_page_is_accessible_to_the_user()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Homeheader"
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Verify contact link tab in the Homepage is aviable to access Login page",
+        "description": "",
+        "id": "velify-demoblaze-homeheader;verify-contact-link-tab-in-the-homepage-is-aviable-to-access-login-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12434201,
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d107.0.5304.123)\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027DESKTOP-I20NSNO\u0027, ip: \u0027192.168.1.217\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.15\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.123, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\\Users\\arifa\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52390}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0b802eda01a887dd1c6c52bd177a69ef\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)\r\n\tat Com.Utility.QA.BaseCamp.launchURL(BaseCamp.java:60)\r\n\tat StepDepCamp.DemoCamp_71.launch_the_application(DemoCamp_71.java:30)\r\n\tat ✽.Given Launch the application\u003c\"URL\"\u003e(HeaderlinkCamp.feature:12)\r\n",
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "Launch the application\u003c\"URL\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 24
+                }
+              ],
+              "location": "DemoCamp_71.launch_the_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User click the Contact link on the Home page",
+            "match": {
+              "location": "DemoCamp_71.user_click_the_Contact_link_on_the_Home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Verify Contact page is accessible to the user",
+            "match": {
+              "location": "DemoCamp_71.verify_Contact_page_is_accessible_to_the_user()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@Homeheader"
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Verify About us link tab in the Homepage is aviable to access About us page",
+        "description": "",
+        "id": "velify-demoblaze-homeheader;verify-about-us-link-tab-in-the-homepage-is-aviable-to-access-about-us-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15777300,
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d107.0.5304.123)\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027DESKTOP-I20NSNO\u0027, ip: \u0027192.168.1.217\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.15\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.123, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\\Users\\arifa\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52390}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0b802eda01a887dd1c6c52bd177a69ef\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)\r\n\tat Com.Utility.QA.BaseCamp.launchURL(BaseCamp.java:60)\r\n\tat StepDepCamp.DemoCamp_71.launch_the_application(DemoCamp_71.java:30)\r\n\tat ✽.Given Launch the application\u003c\"URL\"\u003e(HeaderlinkCamp.feature:18)\r\n",
+              "status": "failed"
+            },
+            "line": 18,
+            "name": "Launch the application\u003c\"URL\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 24
+                }
+              ],
+              "location": "DemoCamp_71.launch_the_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "User click the About us link on the Home page",
+            "match": {
+              "location": "DemoCamp_71.user_click_the_About_us_link_on_the_Home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "Verify About us page is accessible to the user",
+            "match": {
+              "location": "DemoCamp_71.verify_About_us_page_is_accessible_to_the_user()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@Homeheader"
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Verify Cart link tab in the Homepage is aviable to access Cart page",
+        "description": "",
+        "id": "velify-demoblaze-homeheader;verify-cart-link-tab-in-the-homepage-is-aviable-to-access-cart-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10446999,
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d107.0.5304.123)\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027DESKTOP-I20NSNO\u0027, ip: \u0027192.168.1.217\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.15\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.123, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\\Users\\arifa\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52390}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0b802eda01a887dd1c6c52bd177a69ef\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)\r\n\tat Com.Utility.QA.BaseCamp.launchURL(BaseCamp.java:60)\r\n\tat StepDepCamp.DemoCamp_71.launch_the_application(DemoCamp_71.java:30)\r\n\tat ✽.Given Launch the application\u003c\"URL\"\u003e(HeaderlinkCamp.feature:24)\r\n",
+              "status": "failed"
+            },
+            "line": 24,
+            "name": "Launch the application\u003c\"URL\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 24
+                }
+              ],
+              "location": "DemoCamp_71.launch_the_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "User click on Cart link in Homepage",
+            "match": {
+              "location": "DemoCamp_71.user_click_on_Cart_link_in_Homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "Verify Cart page is accessible to the user",
+            "match": {
+              "location": "DemoCamp_71.verify_Cart_page_is_accessible_to_the_user()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 22,
+            "name": "@Homeheader"
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "Verify Login link tab in the Homepage is aviable to access Login page",
+        "description": "",
+        "id": "velify-demoblaze-homeheader;verify-login-link-tab-in-the-homepage-is-aviable-to-access-login-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16558300,
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d107.0.5304.123)\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027DESKTOP-I20NSNO\u0027, ip: \u0027192.168.1.217\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.15\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.123, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\\Users\\arifa\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52390}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0b802eda01a887dd1c6c52bd177a69ef\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)\r\n\tat Com.Utility.QA.BaseCamp.launchURL(BaseCamp.java:60)\r\n\tat StepDepCamp.DemoCamp_71.launch_the_application(DemoCamp_71.java:30)\r\n\tat ✽.Given Launch the application\u003c\"URL\"\u003e(HeaderlinkCamp.feature:30)\r\n",
+              "status": "failed"
+            },
+            "line": 30,
+            "name": "Launch the application\u003c\"URL\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 24
+                }
+              ],
+              "location": "DemoCamp_71.launch_the_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "User click the Log in link on the Home page",
+            "match": {
+              "location": "DemoCamp_71.user_click_the_Log_in_link_on_the_Home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "Verify Login page is accessible to the user",
+            "match": {
+              "location": "DemoCamp_71.verify_Login_page_is_accessible_to_the_user()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 28,
+            "name": "@Homeheader"
+          }
+        ]
+      },
+      {
+        "line": 35,
+        "name": "Verify Sign Up link tab in the Homepage is aviable to access Sign Up page",
+        "description": "",
+        "id": "velify-demoblaze-homeheader;verify-sign-up-link-tab-in-the-homepage-is-aviable-to-access-sign-up-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 27709601,
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d107.0.5304.123)\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027DESKTOP-I20NSNO\u0027, ip: \u0027192.168.1.217\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.15\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.123, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\\Users\\arifa\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52390}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0b802eda01a887dd1c6c52bd177a69ef\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)\r\n\tat Com.Utility.QA.BaseCamp.launchURL(BaseCamp.java:60)\r\n\tat StepDepCamp.DemoCamp_71.launch_the_application(DemoCamp_71.java:30)\r\n\tat ✽.Given Launch the application\u003c\"URL\"\u003e(HeaderlinkCamp.feature:36)\r\n",
+              "status": "failed"
+            },
+            "line": 36,
+            "name": "Launch the application\u003c\"URL\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 24
+                }
+              ],
+              "location": "DemoCamp_71.launch_the_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "User click the Signup link on the Home page",
+            "match": {
+              "location": "DemoCamp_71.user_click_the_Signup_link_on_the_Home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "Verify Sign Up page is accessible to the user",
+            "match": {
+              "location": "DemoCamp_71.verify_Sign_Up_page_is_accessible_to_the_user()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 34,
+            "name": "@Homeheader"
+          }
+        ]
+      }
+    ],
+    "name": "velify demoblaze Homeheader",
+    "description": "",
+    "id": "velify-demoblaze-homeheader",
+    "keyword": "Feature",
+    "uri": "HeaderlinkCamp.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify the Login functionality with valid credentials successfully",
+        "description": "",
+        "id": "this-is-democamp-login-feature-file;verify-the-login-functionality-with-valid-credentials-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19162100,
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d107.0.5304.123)\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027DESKTOP-I20NSNO\u0027, ip: \u0027192.168.1.217\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.15\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.123, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\\Users\\arifa\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52390}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0b802eda01a887dd1c6c52bd177a69ef\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)\r\n\tat Com.Utility.QA.BaseCamp.launchURL(BaseCamp.java:60)\r\n\tat StepDepCamp.DemoCamp_71.launch_the_application(DemoCamp_71.java:30)\r\n\tat ✽.Given Launch the application\u003c\"URL\"\u003e(LoginCamp.feature:5)\r\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "Launch the application\u003c\"URL\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 24
+                }
+              ],
+              "location": "DemoCamp_71.launch_the_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User click the Log in link on the Home page",
+            "match": {
+              "location": "DemoCamp_71.user_click_the_Log_in_link_on_the_Home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Enter a valid username",
+            "match": {
+              "location": "DemoCamp_72.enter_a_valid_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Enter a valid password",
+            "match": {
+              "location": "DemoCamp_72.enter_a_valid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Click the Login button",
+            "match": {
+              "location": "DemoCamp_72.click_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Verify user can log in successfully",
+            "match": {
+              "location": "DemoCamp_72.verify_user_can_log_in_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Verify the Login functionality with invalid credentials is not successful",
+        "description": "",
+        "id": "this-is-democamp-login-feature-file;verify-the-login-functionality-with-invalid-credentials-is-not-successful",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13830501,
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d107.0.5304.123)\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027DESKTOP-I20NSNO\u0027, ip: \u0027192.168.1.217\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.15\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.123, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\\Users\\arifa\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52390}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0b802eda01a887dd1c6c52bd177a69ef\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)\r\n\tat Com.Utility.QA.BaseCamp.launchURL(BaseCamp.java:60)\r\n\tat StepDepCamp.DemoCamp_71.launch_the_application(DemoCamp_71.java:30)\r\n\tat ✽.Given Launch the application\u003c\"URL\"\u003e(LoginCamp.feature:14)\r\n",
+              "status": "failed"
+            },
+            "line": 14,
+            "name": "Launch the application\u003c\"URL\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 24
+                }
+              ],
+              "location": "DemoCamp_71.launch_the_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User click the Log in link on the Home page",
+            "match": {
+              "location": "DemoCamp_71.user_click_the_Log_in_link_on_the_Home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "Enter an invalid username",
+            "match": {
+              "location": "DemoCamp_72.enter_an_invalid_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Enter an invalid password",
+            "match": {
+              "location": "DemoCamp_72.enter_an_invalid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "Click the Login button",
+            "match": {
+              "location": "DemoCamp_72.click_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "Verify user can not log in successfully",
+            "match": {
+              "location": "DemoCamp_72.verify_user_can_not_log_in_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "This is DemoCamp Login feature file",
+    "description": "",
+    "id": "this-is-democamp-login-feature-file",
+    "keyword": "Feature",
+    "uri": "LoginCamp.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Verify Username field on Sign up page",
+        "description": "",
+        "id": "this-is-democamp-sign-up-feature-file;verify-username-field-on-sign-up-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24648701,
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d107.0.5304.123)\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027DESKTOP-I20NSNO\u0027, ip: \u0027192.168.1.217\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.15\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.123, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\\Users\\arifa\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52390}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0b802eda01a887dd1c6c52bd177a69ef\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)\r\n\tat Com.Utility.QA.BaseCamp.launchURL(BaseCamp.java:60)\r\n\tat StepDepCamp.DemoCamp_71.launch_the_application(DemoCamp_71.java:30)\r\n\tat ✽.Given Launch the application\u003c\"URL\"\u003e(SignupCamp.feature:6)\r\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "Launch the application\u003c\"URL\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 24
+                }
+              ],
+              "location": "DemoCamp_71.launch_the_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User click the Signup link on the Home page",
+            "match": {
+              "location": "DemoCamp_71.user_click_the_Signup_link_on_the_Home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Verify the Username field on the Sign-up page",
+            "match": {
+              "location": "DemoCamp_73.verify_the_Username_field_on_the_Sign_up_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Signup"
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Verify without a username and password user can not Sign-up",
+        "description": "",
+        "id": "this-is-democamp-sign-up-feature-file;verify-without-a-username-and-password-user-can-not-sign-up",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13960300,
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d107.0.5304.123)\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027DESKTOP-I20NSNO\u0027, ip: \u0027192.168.1.217\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.15\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.123, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\\Users\\arifa\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52390}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0b802eda01a887dd1c6c52bd177a69ef\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)\r\n\tat Com.Utility.QA.BaseCamp.launchURL(BaseCamp.java:60)\r\n\tat StepDepCamp.DemoCamp_71.launch_the_application(DemoCamp_71.java:30)\r\n\tat ✽.Given Launch the application\u003c\"URL\"\u003e(SignupCamp.feature:13)\r\n",
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "Launch the application\u003c\"URL\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 24
+                }
+              ],
+              "location": "DemoCamp_71.launch_the_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User click the Signup link on the Home page",
+            "match": {
+              "location": "DemoCamp_71.user_click_the_Signup_link_on_the_Home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "Empty username field",
+            "match": {
+              "location": "DemoCamp_73.empty_username_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "Empty password field",
+            "match": {
+              "location": "DemoCamp_73.empty_password_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "User click on the Signup button",
+            "match": {
+              "location": "DemoCamp_73.user_click_on_the_Signup_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "Verify user can not Sign up",
+            "match": {
+              "location": "DemoCamp_73.verify_user_can_not_Sign_up()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@Signup"
+          }
+        ]
+      }
+    ],
+    "name": "This is DemoCamp Sign up feature file",
+    "description": "",
+    "id": "this-is-democamp-sign-up-feature-file",
+    "keyword": "Feature",
+    "uri": "SignupCamp.feature"
+  }
+]
